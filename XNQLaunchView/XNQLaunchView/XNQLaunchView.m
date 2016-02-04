@@ -16,7 +16,7 @@
     if (self = [super init]) {
         _imageView = [[UIImageView alloc] init];
         _imageView.frame = [UIScreen mainScreen].bounds;;
-        _imageView.backgroundColor = [UIColor blueColor];
+        _imageView.backgroundColor = [UIColor whiteColor];
     }
     return self;
 }
