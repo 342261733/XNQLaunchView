@@ -15,7 +15,7 @@
 - (instancetype)init {
     if (self = [super init]) {
         _imageView = [[UIImageView alloc] init];
-        _imageView.frame = CGRectMake(0, 0, 320, 568);
+        _imageView.frame = [UIScreen mainScreen].bounds;;
         _imageView.backgroundColor = [UIColor blueColor];
     }
     return self;
