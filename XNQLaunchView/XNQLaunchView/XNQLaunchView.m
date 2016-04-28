@@ -16,7 +16,8 @@
     if (self = [super init]) {
         _imageView = [[UIImageView alloc] init];
         _imageView.frame = [UIScreen mainScreen].bounds;;
-        _imageView.backgroundColor = [UIColor whiteColor];
+        _imageView.backgroundColor = [UIColor clearColor];
+        _imageView.userInteractionEnabled = YES;// **** 禁止下面的手势可以点击
     }
     return self;
 }
